@@ -1,22 +1,61 @@
 aid: thomas
 name: Thomas
-description: Thomas is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Thomas is a Y Combinator-backed startup (Spring 2026 batch) based in San Francisco,
+  building what it describes as the world's first AI founder: an autonomous AI agent
+  that starts, runs, and grows its own companies on the internet end to end. Founded by
+  Thomas Cloarec (the company was formerly named HireThomas, Inc. / MadeByThomas), it
+  operates a public marketing site at madebythomas.ai. As of this profile the company
+  publishes no public developer API, OpenAPI definition, SDKs, CLI, or developer
+  documentation; the site is a single-page marketing application and its internal
+  /api/ and /events/ routes are explicitly disallowed to crawlers via robots.txt.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://madebythomas.ai/og-image-v3.png
 url: https://raw.githubusercontent.com/api-evangelist/thomas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-yc-batch: Spring 2026
+x-founder: Thomas Cloarec
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Autonomous Agents
+- B2B
+- Y Combinator
+- Startup
+common:
+- type: DomainSecurity
+  url: security/thomas-domain-security.yml
+- type: Website
+  url: https://madebythomas.ai
+- type: CompanyProfile
+  url: https://www.ycombinator.com/companies/thomas
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
