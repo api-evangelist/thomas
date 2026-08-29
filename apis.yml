@@ -9,6 +9,17 @@ description: >-
   publishes no public developer API, OpenAPI definition, SDKs, CLI, or developer
   documentation; the site is a single-page marketing application and its internal
   /api/ and /events/ routes are explicitly disallowed to crawlers via robots.txt.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
