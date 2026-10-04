@@ -51,7 +51,6 @@ tags:
 - Autonomous Agents
 - B2B
 - Y Combinator
-- Startups
 tags_raw:
 - Company
 - Artificial Intelligence
@@ -59,7 +58,6 @@ tags_raw:
 - Autonomous Agents
 - B2B
 - Y Combinator
-- Startup
 common:
 - type: DomainSecurity
   url: security/thomas-domain-security.yml
@@ -78,3 +76,7 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Startups
+x-company-stage: venture-backed
+x-company-stage-evidence: "own tags: Startup, Y Combinator"
